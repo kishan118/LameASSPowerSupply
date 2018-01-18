@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# DF06S-G
+#
+DEF DF06S-G BR 0 30 Y Y 1 F N
+F0 "BR" 450 150 50 H V C CNN
+F1 "DF06S-G" 450 -250 50 H V C CNN
+F2 "SOP510P1015X260-4N" 450 -350 50 H I C CNN
+F3 "http://www.mouser.com/ds/2/80/DF005S-G Thru303489. DF10S-G RevG-971738.pdf" 450 -450 50 H I C CNN
+F4 "Bridge Rectifiers DFS GPP 1A 600V Rect. Bridge Diode" 450 -550 50 H I C CNN "Description"
+F5 "RS" 450 -650 50 H I C CNN "Supplier_Name"
+F6 "Comchip Technology" 450 -850 50 H I C CNN "Manufacturer_Name"
+F7 "DF06S-G" 450 -950 50 H I C CNN "Manufacturer_Part_Number"
+F8 "2.6" 750 -1250 50 H I C CNN "Height"
+DRAW
+S 200 100 700 -200 0 0 10 f
+X ~(1) 1 0 0 200 R 50 50 0 0 I
+X ~(2) 2 0 -100 200 R 50 50 0 0 I
+X + 3 900 -100 200 L 50 50 0 0 O
+X - 4 900 0 200 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+#End Library
